@@ -23,8 +23,8 @@ struct ContentView: View {
             }
            // .buttonStyle(.borderedProminent)
             .padding()
-            .font(.system(size: 40))
-            .background(.orange)
+            .font(.system(size: 35))
+            .background(.purple)
             .foregroundColor(.black)
             .cornerRadius(10)
             .shadow(color: .blue.opacity(0.9),radius: 10, x: 0.0, y:0.0)
@@ -44,7 +44,7 @@ struct ContentView: View {
                 .padding()
                 .font(.system(size: 40))
                 .background(.blue)
-                .foregroundColor(.orange)
+                .foregroundColor(.pink)
                 .cornerRadius(10)
                 .shadow(color: .blue.opacity(0.9),radius: 10, x: 0.0, y:0.0)
                 
